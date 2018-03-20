@@ -1,0 +1,682 @@
+@media (max-width:767px) {
+
+    html,
+    body {
+        width: 100%;
+        font-family: sans-serif;
+        height: auto;
+        margin: 0;
+       
+
+    }
+
+    h1 {
+        font-size: 35px;
+        color: #7E7E36;
+        text-align: center;
+        padding: 3%;
+        margin-bottom: auto;
+
+
+
+
+    }
+
+    h2 {
+        text-align: center;
+        color: #7E7E36;
+        font-size: 22px;
+
+    }
+
+    h3 {
+        text-align: center;
+        color: #7E7E36;
+        text-transform: capitalize;
+        font-size: 22px;
+
+    }
+
+    hr {
+        color: #7E7E36;
+    }
+
+    p {
+        font-size: 16px;
+        color: #7E7E36;
+        margin: 2%;
+        margin-bottom: 7%;
+        padding-left: 1%;
+    }
+
+
+    /*HEADER MED MENU*/
+    header {
+        width: 100%;
+        background-color: #7E7E36;
+        height: auto;
+
+    }
+
+    header img {
+        position: relative;
+        left: 2%;
+        margin: 2%;
+    }
+
+    label {
+        display: block;
+        cursor: pointer;
+        margin: 0 40px 0 0;
+        font-size: 26px;
+        line-height: 70px;
+        width: 26px;
+        float: right;
+        position: relative;
+        top: -80px;
+        color: white;
+
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #7E7E36;
+        text-decoration: none;
+        color: #7E7E36;
+        line-height: 4;
+        clear: right;
+        background-color: white;
+
+
+
+    }
+
+    #toggle {
+        float: right;
+        display: none;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+
+    /*1.BILLEDE MED TEKST*/
+    .headimg {
+        height: auto;
+        margin: 0;
+
+
+    }
+
+    .headimg img {
+        width: 100%;
+        position: relative;
+        top: -70px;
+        z-index: -1;
+        height: auto;
+
+
+
+
+
+    }
+
+
+    .billedetekst {
+        width: 100%;
+        background-color: rgba(126, 126, 54, 0.7);
+        position: relative;
+        top: -205px;
+        height: 110px;
+        margin-bottom: -205px;
+
+
+    }
+
+    .billedetekst h1 {
+        text-align: center;
+        color: white;
+        text-decoration: underline;
+        margin-bottom: 5%;
+        font-size: 30px;
+        position: relative;
+        top: -55%;
+
+    }
+
+    .billedetekst2 p {
+        text-align: center;
+        color: white;
+        position: relative;
+        top: -65%;
+        font-size: 13px;
+        padding-top: 2%;
+
+    }
+
+    .billedetekst2 {
+        width: 100%;
+        background-color: rgba(126, 126, 54, 0.7);
+        position: relative;
+        top: -205px;
+        height: 110px;
+        margin-bottom: -205px;
+
+
+    }
+
+    .billedetekst2 h1 {
+        text-align: center;
+        color: white;
+        text-decoration: underline;
+        margin-bottom: 5%;
+        font-size: 29px;
+        position: relative;
+        top: -55%;
+
+
+    }
+
+    .billedetekst p {
+        text-align: center;
+        color: white;
+        position: relative;
+        top: -65%;
+        font-size: 16px;
+        padding-top: 2%;
+
+
+    }
+
+
+
+
+    .full {
+        width: 100%;
+        height: auto;
+
+
+
+
+    }
+
+    .oplev h1 {
+        text-align: center;
+
+    }
+
+
+    .guide img {
+        width: 50%;
+        position: relative;
+        left: 25%;
+        border-radius:
+    }
+
+
+    .beskrivelse {
+        text-align: center;
+        padding: 0;
+    }
+
+
+    .beskrivelse strong {
+        font-size: 20px;
+    }
+
+
+
+    /*knapper der henviser til rejser*/
+    .knap {
+        background-color: #7E7E36;
+        color: white;
+        padding: 8%;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 20px;
+        margin: 5% 10% 5% 10%;
+        border-radius: 100px;
+        display: block;
+    }
+
+    .knap a {
+        cursor: pointer;
+    }
+
+    .knap:hover {
+        opacity: 0.5;
+    }
+
+
+
+    .motto p {
+        background: #7E7E36;
+        line-height: 3;
+        width: 99%;
+        margin: 0%;
+        color: white;
+        font-size: 18px;
+
+        display: inline-block;
+        text-align: center;
+
+
+    }
+    /*footer*/
+    footer {
+        width: 100%;
+
+
+    }
+
+    .footkontakt {
+        background-color: #7E7E36;
+        margin-top: 0.5%;
+        ;
+        padding-top: 5%;
+        position: relative;
+        left: -
+    }
+
+    .footkontakt img {
+        width: 5%;
+        margin-right: 2%;
+    }
+
+    .footkontakt li {
+        list-style: none;
+        margin-bottom: 2%;
+        position: relative;
+        left: -5%;
+    }
+
+    .footkontakt a {
+        text-decoration: none;
+        color: white;
+        line-height: 2;
+
+    }
+
+
+
+    /*9-12 dage*/
+    .rejsetype img {
+        display: none;
+    }
+
+    .knap2 {
+        background-color: #7E7E36;
+        color: white;
+        padding: 5%;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 20px;
+        margin: 10% 5% 10%;
+        border-radius: 100px;
+        display: block;
+        width: 30%;
+        float: left;
+        max-height:
+    }
+
+    .knap2 a {
+        cursor: pointer;
+    }
+
+    .knap2:hover {
+        opacity: 0.5;
+    }
+    
+    .kontakt p{
+        display: none;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+/*tablet og pc*/
+
+@media (min-width:768px) {
+
+    body {
+        margin:0;
+       font-family: sans-serif;
+    }
+    
+
+    header {
+        width: 100%;
+        background-color: #7E7E36;
+    }
+
+    header img {
+        position: relative;
+        left: 2%;
+        padding: 10px 0;
+
+    }
+
+
+    .nav {
+        border-bottom: 1px, solid;
+        float: right;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .menu {
+        margin: 0 40px 0 0;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: white;
+        margin-right: 40px;
+        font-size: 20px;
+        position: relative;
+        top: 10px;
+
+    }
+
+    label {
+        margin: 0 40px 0 0;
+        font-size: 26px;
+        line-height: 70px;
+        display: none;
+        width: 5%;
+
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    /*1.BILLEDE MED TEKST*/
+    .headimg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tekst {
+        width: 45%;
+        float: right;
+        margin: 2%;
+        color: #7E7E36;
+    }
+    
+    h1{
+        text-align: center;
+        color:#7E7E36;
+    }
+
+    h2 {
+      text-align: center;
+        color: #7E7E36;
+
+    }
+
+    h3 {
+        position: relative;
+        left: 53%;
+        color: #7E7E36;
+        margin-bottom: -1%;
+        margin-right: -47%;
+        width:25%;
+
+    }
+
+
+    .full2 {
+        display: none;
+    }
+
+
+    .billedetekst {
+        width: 100%;
+        background-color: rgba(126, 126, 54, 0.7);
+        position: relative;
+        top: -205px;
+        height: 180px;
+        display: block;
+        margin-bottom: -205px;
+
+
+    }
+
+    .billedetekst h1 {
+        text-align: center;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .billedetekst p {
+
+        text-align: center;
+        color: white;
+        margin: 3%;
+        position: relative;
+        top: -28%;
+        padding: 3% 30%;
+        line-height: 1.5;
+
+    }
+
+    .billedetekst2 {
+        width: 100%;
+        background-color: rgba(126, 126, 54, 0.7);
+        position: relative;
+        top: -205px;
+        height: 180px;
+        display: block;
+        margin-bottom: -205px;
+
+
+    }
+
+    .billedetekst2 h1 {
+        text-align: center;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .billedetekst2 p {
+
+        text-align: center;
+        color: white;
+        margin: 3%;
+        position: relative;
+        top: -28%;
+        padding: 3% 30%;
+        line-height: 1.5;
+
+    }
+
+    .full {
+        width: 50%;
+        margin-top: -20px
+
+    }
+
+    .guidetekst p{
+        text-align: center;
+        background-color: #7E7E36;
+        padding: 1%;
+        color: white;
+        width: 98%;
+        margin: 0%;
+
+    }
+    
+    .guidetekst h1{
+        color: white;
+           text-align: center;
+        background-color: #7E7E36;
+        padding: 1%;
+        color: white;
+        width: 98%;
+        margin: 0%;
+        
+    }
+  
+    
+
+
+    .guide img {
+        width: 50%;
+        position: relative;
+        left: 25%;
+        margin-top: 2%;
+    }
+
+    .beskrivelse {
+        text-align: center;
+        width: 100%%;
+        background-color: #7E7E36;
+        padding: 3%;
+        color: white;
+        margin:0%
+    }
+    
+    .knap{
+        background-color: white;
+        color: #7E7E36;
+        width:50;
+        padding: 3%;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 20px;
+        margin: 5% 10% 5% 10%;
+        border-radius: 100px;
+        border: dotted 3px #7E7E36;
+        display: block;
+    }
+    
+
+
+
+    footer {
+        width: 100%;
+
+
+    }
+
+    .footkontakt {
+        background-color: #7E7E36;
+        margin-top: 0.5%;
+        ;
+        padding-top: 1%;
+
+
+    }
+
+    .footkontakt img {
+        width: 2%;
+        margin-right: 2%;
+
+    }
+
+    .footkontakt li {
+        list-style: none;
+
+    }
+
+    .footkontakt a {
+        text-decoration: none;
+        color: white;
+        line-height: 1;
+
+    }
+    
+     .motto p {
+        background: #7E7E36;
+        line-height: 3;
+        width: 99%;
+        margin: 0%;
+        color: white;
+        font-size: 18px;
+
+        display: inline-block;
+        text-align: center;
+    }
+    
+    
+    
+   
+    
+    .rejsetype p{
+        width: 45%;
+        float: right;
+        margin: 2%;
+        color: #7E7E36;
+    }
+    
+    .rejsetype img{
+        width: 50%;
+    }
+    
+    .knap2 {
+        background-color: #7E7E36;
+        color: white;
+        padding: 5%;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 30px;
+        margin: 5%;
+        border-radius: 100px;
+        display: block;
+        width: 30%;
+        float: left;
+    }
+    
+
+    .knap2 a {
+        cursor: pointer;
+    }
+
+    .knap2:hover {
+        opacity: 0.5;
+    }
+    
+    .skjul p{
+        text-align: center;
+    }
+
+    .kontakt h3{
+    color:white;
+        
+    }
+    
+       p {
+        font-size: 16px;
+        color: #7E7E36;
+        margin: 2%;
+        margin-bottom: 7%;
+        padding-left: 1%;
+    }
+    
+    .kontakt p{
+        text-align: center;
+        font-size: 22px;
+        margin-top: 0%;
+    }
+    
+
+    
+      
+}
+
